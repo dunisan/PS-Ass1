@@ -31,6 +31,7 @@ void print_book(PElement b_){
 }
 
 pbook creat_book(char* name , int serial_number) {
+	
 	pbook cp = (pbook)malloc(sizeof(book));
 	if(!cp) return NULL;
 	cp->name = (char*)malloc(strlen(name)+sizeof(char));
