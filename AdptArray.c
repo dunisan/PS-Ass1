@@ -91,8 +91,8 @@ void DeleteAdptArray(PAdptArray pAdpArr){
 /// @return SUCCESS when succeeded to set the element and FAIL when failed 
 Result SetAdptArrayAt(PAdptArray pAdpArr, int index, PElement pNewElement){
 
-    // Check that the adptive array isn't null 
-    if(pAdpArr == NULL){
+    // Check for unvalid input 
+    if(pAdpArr == NULL || index<=0 || pNewElement == NULL){
         return FAIL; 
     }
 
@@ -101,7 +101,7 @@ Result SetAdptArrayAt(PAdptArray pAdpArr, int index, PElement pNewElement){
     if(index >= pAdpArr->ArrSize){
         
         PElement* newpElement = (PElement*)calloc(index + 1, sizeof(PElement));
-
+       
         // check for allocating error
         if (newpElement == NULL) {
             return FAIL;
@@ -140,8 +140,8 @@ Result SetAdptArrayAt(PAdptArray pAdpArr, int index, PElement pNewElement){
 /// @return the element 
 PElement GetAdptArrayAt(PAdptArray pAdpArr, int index){
     
-    // check that the given element is not null 
-    if ((pAdpArr->pElemArr)[index] == NULL) {
+    // check for unvalid input  
+    if ( index<0 || index>(pAdpArr->ArrSize) || (pAdpArr->pElemArr)[index] == NULL) {
         return NULL;
     }
     
