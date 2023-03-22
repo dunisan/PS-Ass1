@@ -1,46 +1,15 @@
-<div dir="rtl" lang="he">
+This "AdptArray.c" file is part of the ADT assignment.
 
-# ADT
-במטלה זו תממשו מערך אדפטיבי כללי בשפת C. 
-מערך אדפטיבי הינו מערך שמשנה את גודלו כך שכל פנייה לאינדק אי שלילי היא תקינה. כאשר פונים לאינדקס בו לא הושם ערך אז מוחזר NULL
+we added the AdptArray.c file to the given ones. 
 
-תיאור אופן הפעולה המלא נמצא בקובץ ה
-[ADT_definition.pdf](ADT_definition.pdf) 
-המצורף.
+In the AdptArray.c file We define the structure of the array,
+and in addition all the functions required to manage it.
 
-שימו לב אין כל מידע מקדים על סוג המבנים שיכנסו למערך. בתוכנית הדמו יש שימוש בשני מבנים שונים. אין לשנות את הקבציים הקיימים פרט לקובץ הAdptArray.c
+In order to create the current file I took help from:
+a. My solution to the test that was in systems programming A. 
+b. The solution published on the course website
 
-כדי לראות איך ,תוכנית אמורה לעבוד, ראו בקובץ
-[Demo.c](Demo.c)
-המצורף.
 
- עליכם לכתוב את הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות קימפול, זמן ריצה או דליפות זיכרון.:
+Daniel Nissan Schneiderman
 
-<div dir='ltr'>
-
-    make demo
-	make run
-    make mem_test
-
-</div>
-
-עליכם לכתוב את  הקבצים הבאים:
-
-* AdptArray.c - מימוש הפונקציות הנדרשות. 
-
-שימו לב:
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-מערכת הבדיקה האוטומטית מעתיקה מחדש את כל הקבצים הקיימים על-גבי הפתרון שאתם מגישים,
-ולכן כל שינוי שתעשו בקבצים הקיימים יימחק.
-
-ההגשה תתבצעה בגיט. בדיוק כמו בתכנות מערכות א.
-עליכם להגיש קובץ טקסט שמכיל 3 שורות.
-
-לינק לריפוזיטורי
-	
-מזהה הקומיט
-	
-תעודת זהות
-	
-
-</div>
+22.03.2023  
