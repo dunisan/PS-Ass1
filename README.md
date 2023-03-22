@@ -10,6 +10,6 @@ a. My solution to the test that was in systems programming A.
 b. The solution published on the course website
 
 
-Daniel Nissan Schneiderman
+Daniel Schneiderman
 
 22.03.2023  
