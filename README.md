@@ -1,6 +1,6 @@
 This "AdptArray.c" file is part of the ADT assignment.
 
-we added the AdptArray.c file to the given ones. 
+I added the AdptArray.c file to the given ones. 
 
 In the AdptArray.c file We define the structure of the array,
 and in addition all the functions required to manage it.
